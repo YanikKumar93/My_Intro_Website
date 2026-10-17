@@ -29,7 +29,9 @@ export default function Projects() {
       'Electric design focused on lower fuel use, reduced pollution, and improved accessibility'
     ],
     technologies: ['Electric Mobility', '90° Wheel Rotation', 'Remote Control', 'Autonomous Systems'],
-    researchPaper: 'https://www.ijfmr.com/research-paper.php?id=35153'
+    researchPaper: 'https://www.ijfmr.com/research-paper.php?id=35153',
+    video: 'https://youtube.com/shorts/MxYeuoawojo?feature=shared',
+    prototypeImage: '/quad-turn-latest-prototype.png'
   };
 
   const openRepository = (project) => {

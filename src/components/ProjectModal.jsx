@@ -81,6 +81,24 @@ export default function ProjectModal({ project, onClose }) {
             </p>
           </div>
 
+          {project.prototypeImage && (
+            <div className="mb-6">
+              <div className="flex items-center justify-between gap-3 mb-3">
+                <h4 className="text-xs font-mono uppercase tracking-wider text-slate-300 font-semibold">
+                  Latest Prototype
+                </h4>
+                <span className="text-[10px] font-mono text-cyan-400/80">VISUAL PREVIEW</span>
+              </div>
+              <div className="overflow-hidden rounded-2xl border border-cyan-500/20 bg-slate-900/80 shadow-lg shadow-cyan-500/5">
+                <img
+                  src={project.prototypeImage}
+                  alt="Latest Quad Turn Mobility prototype"
+                  className="w-full h-auto object-cover"
+                />
+              </div>
+            </div>
+          )}
+
           {/* Stats Bar */}
           {project.stats && (
             <div className="grid grid-cols-3 gap-3 mb-6">
@@ -187,6 +205,18 @@ export default function ProjectModal({ project, onClose }) {
                 className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl text-xs sm:text-sm font-semibold uppercase tracking-wider text-white bg-gradient-to-r from-cyan-500 to-blue-600 shadow-glow-cyan hover:brightness-110 transition-all"
               >
                 <span>View Research Paper</span>
+                <ExternalLink className="w-4 h-4" />
+              </a>
+            )}
+
+            {project.video && (
+              <a
+                href={project.video}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl text-xs sm:text-sm font-semibold uppercase tracking-wider text-white bg-gradient-to-r from-red-500 to-rose-600 shadow-lg shadow-red-500/20 hover:brightness-110 transition-all"
+              >
+                <span>View Video</span>
                 <ExternalLink className="w-4 h-4" />
               </a>
             )}
