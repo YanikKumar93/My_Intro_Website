@@ -15,9 +15,20 @@ export default function Projects() {
   const hardwareProject = {
     title: 'Quad Turn Mobility',
     category: 'Hardware & Mobility',
-    tagline: 'Project details will be added soon',
-    description: 'Project details will be added soon.',
-    technologies: [],
+    tagline: 'A 90-degree wheel-rotation vehicle for two-dimensional movement',
+    description: 'Quad Turn Mobility is an electric four-wheel vehicle concept whose wheels rotate approximately 90 degrees, allowing forward, backward, sideways, and diagonal movement. It is designed to simplify tight-space parking, improve maneuverability, support accessible transportation, and provide a platform for future remote and autonomous driving systems.',
+    stats: {
+      movement: '2D Mobility',
+      drive: 'Four-Wheel Drive',
+      focus: 'Smart Accessibility'
+    },
+    features: [
+      'Sideways and diagonal movement for easier parking and space optimization',
+      'Remote operation with potential for sensor fusion and AI-based driving',
+      'Applications across public-utility vehicles, wheelchairs, hospital beds, and planetary rovers',
+      'Electric design focused on lower fuel use, reduced pollution, and improved accessibility'
+    ],
+    technologies: ['Electric Mobility', '90° Wheel Rotation', 'Remote Control', 'Autonomous Systems'],
     researchPaper: 'https://www.ijfmr.com/research-paper.php?id=35153'
   };
 
