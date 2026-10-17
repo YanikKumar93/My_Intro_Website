@@ -106,7 +106,7 @@ export default function TechStackFloating() {
                     initial={{ opacity: 0, y: 10, scale: 0.95 }}
                     animate={{ opacity: 1, y: 0, scale: 1 }}
                     exit={{ opacity: 0, y: 5 }}
-                    className="hidden sm:block absolute bottom-full left-1/2 -translate-x-1/2 mb-2 w-48 p-3 rounded-xl bg-slate-950/95 border border-white/20 shadow-2xl z-30 pointer-events-none backdrop-blur-xl text-left"
+                    className="desktop-tooltip absolute bottom-full left-1/2 -translate-x-1/2 mb-2 w-48 p-3 rounded-xl bg-slate-950/95 border border-white/20 shadow-2xl z-30 pointer-events-none backdrop-blur-xl text-left"
                   >
                     <div className="flex items-center justify-between mb-1">
                       <span className="text-xs font-bold text-white">{tech.name}</span>
