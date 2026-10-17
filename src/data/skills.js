@@ -107,7 +107,7 @@ export const skillCategories = [
         level: "Intermediate",
         proficiency: 75,
         badge: "3D Visualization",
-        description: "3D mesh modeling, hardware visualization, digital twin animations, and physical asset rendering."
+        description: "3D mesh modeling, hardware visualization, and physical asset rendering."
       },
       {
         name: "Photoshop",
