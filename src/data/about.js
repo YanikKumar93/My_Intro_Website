@@ -11,7 +11,7 @@ export const aboutData = {
       subtitle: "B.Tech ECE Undergrad & Maker",
       icon: "User",
       accent: "cyan",
-      content: "An engineering student passionate about systems engineering, IoT, automation, and AI. Constantly building prototypes, experimenting with microcontrollers, and writing clean, maintainable code."
+      content: "An engineering student passionate about systems engineering, IoT, automation, AI, electronic circuits, and developing basic software. Constantly building prototypes, experimenting with microcontrollers, and writing clean, maintainable code."
     },
     {
       id: "what-i-work-on",
