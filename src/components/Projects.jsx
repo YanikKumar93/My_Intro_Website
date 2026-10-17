@@ -16,7 +16,9 @@ export default function Projects() {
     title: 'Quad Turn Mobility',
     category: 'Hardware & Mobility',
     tagline: 'Project details will be added soon',
-    description: 'Project details will be added soon.'
+    description: 'Project details will be added soon.',
+    technologies: [],
+    researchPaper: 'https://www.ijfmr.com/research-paper.php?id=35153'
   };
 
   const openRepository = (project) => {

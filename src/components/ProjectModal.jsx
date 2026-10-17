@@ -178,6 +178,18 @@ export default function ProjectModal({ project, onClose }) {
                 <ExternalLink className="w-4 h-4" />
               </a>
             )}
+
+            {project.researchPaper && (
+              <a
+                href={project.researchPaper}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl text-xs sm:text-sm font-semibold uppercase tracking-wider text-white bg-gradient-to-r from-cyan-500 to-blue-600 shadow-glow-cyan hover:brightness-110 transition-all"
+              >
+                <span>View Research Paper</span>
+                <ExternalLink className="w-4 h-4" />
+              </a>
+            )}
           </div>
         </motion.div>
       </div>
