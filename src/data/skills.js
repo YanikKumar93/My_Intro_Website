@@ -79,7 +79,7 @@ export const skillCategories = [
         level: "Proficient",
         proficiency: 85,
         badge: "JetBrains Suite",
-        description: "Virtual environment debugging, unit testing, and Python backend structuring."
+        description: "Virtual environment debugging and Python backend structuring."
       },
       {
         name: "Streamlit",
@@ -87,6 +87,13 @@ export const skillCategories = [
         proficiency: 88,
         badge: "Data & IoT UI",
         description: "Real-time telemetry dashboards, sensor data analytics, and interactive AI prototype showcases."
+      },
+      {
+        name: "Vercel",
+        level: "Beginner",
+        proficiency: 78,
+        badge: "Deployment Platform",
+        description: "Deploying and hosting React/Vite portfolio applications."
       }
     ]
   },
