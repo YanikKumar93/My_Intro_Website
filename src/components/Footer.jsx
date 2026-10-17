@@ -1,8 +1,11 @@
-import React from 'react';
-import { ArrowUp, Github, Linkedin, Mail } from 'lucide-react';
+import React, { useState } from 'react';
+import { ArrowUp, Check, Copy, Github, Linkedin, Mail } from 'lucide-react';
 import { personalInfo } from '../data/personal';
 
 export default function Footer() {
+  const [showEmail, setShowEmail] = useState(false);
+  const [copiedEmail, setCopiedEmail] = useState(false);
+
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
@@ -57,13 +60,42 @@ export default function Footer() {
               <Linkedin className="w-4 h-4" />
             </a>
 
-            <a
-              href={`mailto:${personalInfo.socials.email}`}
-              aria-label="Email"
-              className="p-2 rounded-xl bg-slate-900/60 border border-white/5 text-slate-400 hover:text-white hover:border-emerald-500/40 transition-colors"
-            >
-              <Mail className="w-4 h-4" />
-            </a>
+            <div className="relative flex items-center gap-2">
+              {showEmail && (
+                <div className="absolute bottom-full right-0 mb-2 flex items-center gap-2 p-2 rounded-xl bg-slate-950/95 border border-emerald-500/30 shadow-xl backdrop-blur-xl whitespace-nowrap">
+                  <a
+                    href={`mailto:${personalInfo.socials.email}`}
+                    className="text-[10px] font-mono text-emerald-300 hover:text-white transition-colors"
+                  >
+                    {personalInfo.socials.email}
+                  </a>
+                  <button
+                    type="button"
+                    onClick={() => {
+                      navigator.clipboard.writeText(personalInfo.socials.email);
+                      setCopiedEmail(true);
+                      setTimeout(() => setCopiedEmail(false), 2200);
+                    }}
+                    aria-label="Copy email address"
+                    title="Copy email address"
+                    className="text-slate-400 hover:text-emerald-300 transition-colors"
+                  >
+                    {copiedEmail ? <Check className="w-3.5 h-3.5" /> : <Copy className="w-3.5 h-3.5" />}
+                  </button>
+                </div>
+              )}
+              <button
+                type="button"
+                onClick={() => setShowEmail((prev) => !prev)}
+                aria-label={showEmail ? 'Hide email' : 'Show email'}
+                title={showEmail ? 'Hide email' : 'View and copy email'}
+                className={`p-2 rounded-xl bg-slate-900/60 border border-white/5 text-slate-400 hover:text-white hover:border-emerald-500/40 transition-colors ${
+                  showEmail ? 'text-emerald-300 border-emerald-500/40' : ''
+                }`}
+              >
+                <Mail className="w-4 h-4" />
+              </button>
+            </div>
 
             <button
               type="button"
