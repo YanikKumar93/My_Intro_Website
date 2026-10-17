@@ -37,14 +37,14 @@ export const skillCategories = [
         level: "Beginner to Intermediate",
         proficiency: 92,
         badge: "IoT Flagship",
-        description: "Dual-core FreeRTOS programming, Wi-Fi/Bluetooth LE stacks, MQTT brokers, and deep-sleep power states."
+        description: "Learning its usages and functions."
       },
       {
         name: "Arduino",
         level: "Beginner to Intermediate",
         proficiency: 90,
         badge: "Rapid Prototyping",
-        description: "Microcontroller circuit integration, analog/digital sensor reading, motor drivers, and serial debug."
+        description: "Microcontroller circuit integration and sensor readings."
       },
     ]
   },
