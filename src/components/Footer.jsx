@@ -14,7 +14,7 @@ export default function Footer() {
   };
 
   return (
-    <footer className="portfolio-footer relative border-t border-white/10 bg-[#07090e] px-4 py-5 sm:px-6 lg:px-8 overflow-hidden">
+    <footer className="portfolio-footer relative z-20 border-t border-white/10 bg-[#07090e] px-4 py-5 sm:px-6 lg:px-8 overflow-visible">
       {/* Background glow */}
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[600px] h-[100px] bg-cyan-500/5 blur-[80px] pointer-events-none" />
 
@@ -62,7 +62,7 @@ export default function Footer() {
 
             <div className="relative flex items-center gap-2">
               {showEmail && (
-                <div className="absolute bottom-full right-0 mb-2 flex items-center gap-2 p-2 rounded-xl bg-slate-950/95 border border-emerald-500/30 shadow-xl backdrop-blur-xl whitespace-nowrap">
+                <div className="absolute bottom-full right-0 z-50 mb-2 flex items-center gap-2 p-2 rounded-xl bg-slate-950/95 border border-emerald-500/30 shadow-xl backdrop-blur-xl whitespace-nowrap">
                   <a
                     href={`mailto:${personalInfo.socials.email}`}
                     className="text-[10px] font-mono text-emerald-300 hover:text-white transition-colors"
