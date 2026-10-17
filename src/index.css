@@ -64,8 +64,9 @@
     z-index: 0;
     pointer-events: none;
     border-radius: 50%;
-    background: rgba(34, 211, 238, 0.045);
+    background: radial-gradient(circle, rgba(34, 211, 238, 0.075), rgba(99, 102, 241, 0.025) 45%, transparent 72%);
     filter: blur(70px);
+    animation: ambientDrift 18s ease-in-out infinite alternate;
   }
 
   /* LUXURY, CLEAN & CRISP LIGHT THEME */
@@ -93,7 +94,18 @@
 
   .theme-light .portfolio-shell::after,
   html.light .portfolio-shell::after {
-    background: rgba(14, 165, 233, 0.045);
+    background: radial-gradient(circle, rgba(14, 165, 233, 0.065), rgba(99, 102, 241, 0.02) 45%, transparent 72%);
+  }
+
+  @keyframes ambientDrift {
+    from {
+      transform: translate3d(0, 0, 0) scale(0.92);
+      opacity: 0.72;
+    }
+    to {
+      transform: translate3d(-8rem, 5rem, 0) scale(1.08);
+      opacity: 1;
+    }
   }
 
   .portfolio-page {
