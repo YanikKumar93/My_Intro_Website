@@ -2,7 +2,7 @@ export const aboutData = {
   intro: {
     headline: "Engineering at the intersection of Silicon and Code",
     paragraph1: "I am Yanik Kumar, a B.Tech Electronics and Communication Engineering student driven by a fascination with how physical signals translate into intelligent computation. Rather than staying purely within hardware or software, I enjoy traversing both worlds.",
-    paragraph2: "From architecting low-latency firmware on ESP32 microcontrollers to training computer vision pipelines and building clean web dashboards, I take ideas from circuit schematics to deployable, scalable systems."
+    paragraph2: "I take ideas from a mere problem statement to deployable, scalable systems."
   },
   cards: [
     {
