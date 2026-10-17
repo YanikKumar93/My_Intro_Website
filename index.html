@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portfolio of Yanik Kumar - B.Tech ECE Student, Embedded Systems Developer, Software & AI Enthusiast. Innovating across hardware, IoT, and modern software." />
+    <meta name="keywords" content="Yanik Kumar, ECE, Electronics and Communication Engineering, Embedded Systems, IoT, C, C++, Python, ESP32, Arduino, Developer Portfolio" />
+    <meta name="author" content="Yanik Kumar" />
+    <link rel="icon" type="image/svg+xml" href="/yk-logo.svg" />
+    <link rel="apple-touch-icon" href="/yk-logo.svg" />
+
+    <!-- Google Fonts including Authentic Pixel & JetBrains Monospace -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Outfit:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Press+Start+2P&family=Silkscreen:wght@400;700&family=VT323&display=swap" rel="stylesheet">
+
+    <!-- Theme Detection Script (Zero-FOUC) -->
+    <script>
+      (function() {
+        const savedTheme = localStorage.getItem('theme');
+        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        if (savedTheme === 'light' || (!savedTheme && !prefersDark)) {
+          document.documentElement.classList.remove('dark');
+          document.documentElement.classList.add('light');
+        } else {
+          document.documentElement.classList.add('dark');
+          document.documentElement.classList.remove('light');
+        }
+      })();
+    </script>
+
+    <title>Yanik Kumar — B.Tech ECE Engineer & Developer</title>
+  </head>
+  <body class="bg-slate-50 text-slate-900 dark:bg-[#090b10] dark:text-slate-100 antialiased selection:bg-cyan-500/20 selection:text-cyan-800 dark:selection:text-cyan-300 overflow-x-hidden overflow-y-auto min-h-screen transition-colors duration-300">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
