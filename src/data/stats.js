@@ -14,7 +14,7 @@ export const portfolioStats = [
   {
     id: "competitions",
     label: "Hackathons",
-    value: "4",
+    value: "6",
     description: "Hardware sprints and technical challenges"
   },
 ];
