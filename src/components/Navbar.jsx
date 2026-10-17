@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Menu, X, Cpu, Moon, Sun } from 'lucide-react';
+import { Menu, X, Moon, Sun } from 'lucide-react';
 import { personalInfo } from '../data/personal';
 
 const navLinks = [
@@ -95,8 +95,12 @@ export default function Navbar({ isDark, onToggleTheme }) {
               onClick={(e) => handleLinkClick(e, '#home')}
               className="flex items-center gap-2.5 group focus:outline-none"
             >
-              <div className="w-9 h-9 rounded-xl bg-gradient-to-tr from-cyan-500/20 via-blue-500/20 to-violet-500/20 border border-cyan-500/30 flex items-center justify-center text-cyan-600 dark:text-cyan-400 group-hover:border-cyan-400 transition-colors shadow-sm">
-                <Cpu className="w-5 h-5 group-hover:scale-110 transition-transform duration-300" />
+              <div className="w-9 h-9 rounded-xl bg-slate-950 border border-cyan-500/30 flex items-center justify-center p-1 group-hover:border-cyan-400 transition-colors shadow-sm">
+                <img
+                  src="/yk-logo.svg"
+                  alt="Yanik Kumar logo"
+                  className="w-full h-full object-contain group-hover:scale-110 transition-transform duration-300"
+                />
               </div>
               <div className="flex flex-col">
                 <span className="font-display font-bold text-lg tracking-tight text-slate-900 dark:text-white group-hover:text-cyan-600 dark:group-hover:text-cyan-300 transition-colors">
