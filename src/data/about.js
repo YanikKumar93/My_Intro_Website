@@ -43,7 +43,7 @@ export const aboutData = {
       subtitle: "Continuous Expansion",
       icon: "BookOpen",
       accent: "cyan",
-      content: "Real-Time Operating Systems (FreeRTOS) multithreading, Edge Computing on RISC-V and ARM architectures, and High-Speed PCB Layout fundamentals."
+      content: "ESP32 usages and functions; Agentic AI and AI Agents; a bit of latest space technologies; Sensor Data reading and analysing."
     }
   ]
 };
