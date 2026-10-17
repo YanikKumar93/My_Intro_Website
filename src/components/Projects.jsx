@@ -12,6 +12,12 @@ import ProjectModal from './ProjectModal';
 
 export default function Projects() {
   const [activeModalProject, setActiveModalProject] = useState(null);
+  const hardwareProject = {
+    title: 'Quad Turn Mobility',
+    category: 'Hardware & Mobility',
+    tagline: 'Project details will be added soon',
+    description: 'Project details will be added soon.'
+  };
 
   const openRepository = (project) => {
     if (project.github) {
@@ -70,7 +76,7 @@ export default function Projects() {
           <span className="h-px flex-1 bg-cyan-400/30" />
         </div>
         <div className="project-card rounded-2xl glass-card p-6 sm:p-7 border border-white/10 mb-12">
-          <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+          <div className="flex items-start justify-between gap-4">
             <div>
               <span className="text-[10px] font-mono uppercase tracking-wider text-cyan-400">
                 01 · Hardware & Mobility
@@ -82,9 +88,15 @@ export default function Projects() {
                 Project details will be added soon.
               </p>
             </div>
-            <span className="self-start sm:self-center px-3 py-1.5 rounded-full text-[10px] font-mono text-slate-400 bg-white/5 border border-white/10">
-              In progress
-            </span>
+            <button
+              type="button"
+              onClick={() => setActiveModalProject(hardwareProject)}
+              className="shrink-0 p-1.5 rounded-lg bg-white/5 hover:bg-cyan-500/20 text-slate-400 hover:text-cyan-300 transition-colors"
+              title="Inspect Specifications"
+              aria-label="Inspect Quad Turn Mobility specifications"
+            >
+              <Maximize2 className="w-4 h-4" />
+            </button>
           </div>
         </div>
 
