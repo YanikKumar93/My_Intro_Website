@@ -55,7 +55,7 @@ export default function Skills() {
             transition={{ delay: 0.15 }}
             className="text-slate-400 text-sm sm:text-base max-w-xl mx-auto mt-3"
           >
-            Rigorous foundations across low-level embedded hardware, systems programming, and industry-standard tools.
+            Hands-on work across ESP32 systems, sensor data analysis, automation, AI agents, electronic circuits, and practical software development.
           </motion.p>
 
         </div>
