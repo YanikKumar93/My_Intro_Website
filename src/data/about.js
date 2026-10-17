@@ -27,7 +27,7 @@ export const aboutData = {
       subtitle: "Where Curiosity Leads",
       icon: "Sparkles",
       accent: "violet",
-      content: "Edge AI / TinyML, Autonomous Robotics, Signal Processing, Digital Twin Modeling in Blender/AutoCAD, Audio Engineering (BandLab), and Visual Media."
+      content: "Exploring emerging technologies, creating 3D models with a variety of software, developing new and exciting projects, and experimenting with photo and video editing."
     },
     {
       id: "my-approach",
