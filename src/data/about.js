@@ -19,7 +19,7 @@ export const aboutData = {
       subtitle: "Embedded IoT & Modern Apps",
       icon: "Cpu",
       accent: "emerald",
-      content: "Firmware in C/C++, automated data streams over MQTT/WebSockets, computer vision with OpenCV/Python, sensor fusion, and responsive web user interfaces."
+      content: "Developing ESP32-based systems, reading and analysing sensor data, building automation solutions, exploring Agentic AI and AI Agents, and creating practical software interfaces."
     },
     {
       id: "my-interests",
