@@ -15,7 +15,7 @@ export default function TechStackFloating() {
 
       <div className="max-w-6xl mx-auto">
         {/* Section title & badge */}
-        <div className="text-center mb-10">
+        <div className="text-center mb-8">
           <motion.h2
             initial={{ opacity: 0, y: 10 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -25,19 +25,10 @@ export default function TechStackFloating() {
           >
             Key Tech Stack & Environments
           </motion.h2>
-          <motion.p
-            initial={{ opacity: 0, y: 10 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ delay: 0.15 }}
-            className="text-sm sm:text-base text-slate-400 max-w-xl mx-auto mt-2"
-          >
-            Seamlessly bridging low-level firmware, 3D CAD modeling, audio engineering, and creative software.
-          </motion.p>
         </div>
 
         {/* Modern Translucent Floating Grid */}
-        <div className="tech-stack-grid grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3 sm:gap-4">
+        <div className="tech-stack-grid max-w-5xl mx-auto grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-5 items-stretch">
           {floatingTechStack.map((tech, index) => {
             const isHovered = activeTooltip === tech.name;
             const duration = floatDurations[index % floatDurations.length];
@@ -63,7 +54,7 @@ export default function TechStackFloating() {
                     repeat: Infinity,
                     ease: "easeInOut",
                   }}
-                  className="tech-stack-card group relative flex items-center gap-3 w-full min-h-[4.25rem] px-3.5 py-3 rounded-2xl cursor-pointer transition-all duration-300 shadow-sm"
+                  className="tech-stack-card group relative flex items-center gap-3 w-full h-full min-h-[4.5rem] px-3.5 py-3 rounded-2xl cursor-pointer transition-all duration-300 shadow-sm"
                   style={{
                     borderColor: tech.borderHover,
                   }}
