@@ -2,7 +2,7 @@ export const skillCategories = [
   {
     id: "programming",
     title: "Programming",
-    tagline: "Core languages for low-level systems, data pipelines, and automation",
+    tagline: "Building foundations in programming, problem-solving, and basic software development",
     skills: [
       {
         name: "C",
@@ -30,7 +30,7 @@ export const skillCategories = [
   {
     id: "hardware",
     title: "Hardware & Embedded",
-    tagline: "Microcontrollers, prototyping boards, sensors, and communication buses",
+    tagline: "Learning microcontrollers, electronic circuits, sensors, and communication basics",
     skills: [
       {
         name: "ESP32",
@@ -51,7 +51,7 @@ export const skillCategories = [
   {
     id: "tools",
     title: "Developer Tools",
-    tagline: "Environments, version control, and data visualization frameworks",
+    tagline: "Using coding environments, version control, and beginner-friendly development tools",
     skills: [
       {
         name: "Git",
@@ -93,7 +93,7 @@ export const skillCategories = [
   {
     id: "design-media",
     title: "Design & Engineering Media",
-    tagline: "CAD drafting, 3D modeling, and audiovisual communication",
+    tagline: "Exploring CAD, 3D modeling, visual design, video editing, and audio production",
     skills: [
       {
         name: "AutoCAD",
