@@ -1,6 +1,6 @@
 export const aboutData = {
   intro: {
-    headline: "Engineering at the intersection of Silicon and Code",
+    headline: "Electronics, Automation, and AI in Practice",
     paragraph1: "I am Yanik Kumar, a B.Tech Electronics and Communication Engineering student passionate about electronic circuits, ESP32 systems, IoT, automation, and AI. I enjoy turning ideas into practical prototypes by combining sensor data, intelligent systems, and clean software.",
     paragraph2: "I take ideas from a mere problem statement to deployable, scalable systems."
   },
