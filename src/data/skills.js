@@ -72,7 +72,7 @@ export const skillCategories = [
         level: "Intermediate to Advanced",
         proficiency: 92,
         badge: "Primary IDE",
-        description: "PlatformIO integration for embedded systems, C/C++ IntelliSense, and multi-language workflows."
+        description: "C/C++ coding and debugging and multi-language workflows."
       },
       {
         name: "PyCharm",
