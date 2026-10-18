@@ -100,7 +100,7 @@ export default function Projects() {
                 Quad Turn Mobility
               </h3>
               <p className="mt-2 text-sm text-slate-400">
-                Project details will be added soon.
+                Latest prototype in development.
               </p>
             </div>
             <button
