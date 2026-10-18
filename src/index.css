@@ -558,6 +558,33 @@
     color: #0284c7;
   }
 
+  .theme-light main .text-white {
+    color: #0f172a;
+  }
+
+  .theme-light main .text-slate-100 {
+    color: #0f172a;
+  }
+
+  .theme-light main .text-slate-200 {
+    color: #1e293b;
+  }
+
+  .theme-light main .text-slate-300 {
+    color: #334155;
+  }
+
+  .theme-light main .text-slate-400 {
+    color: #475569;
+  }
+
+  .theme-light main button.text-white,
+  .theme-light main a.text-white,
+  .theme-light main button .text-white,
+  .theme-light main a .text-white {
+    color: #ffffff;
+  }
+
   /* Inner elements with dark slate backgrounds become clean light cards */
   .theme-light .portfolio-content .bg-slate-900\/60,
   .theme-light .portfolio-content .bg-slate-900\/80,
