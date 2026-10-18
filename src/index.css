@@ -585,6 +585,22 @@
     color: #ffffff;
   }
 
+  .theme-light #about .text-cyan-300 {
+    color: #0369a1;
+  }
+
+  .theme-light #about .text-slate-300\/90 {
+    color: #334155;
+  }
+
+  .theme-light #about .text-slate-500 {
+    color: #475569;
+  }
+
+  .theme-light #about .group-hover\:text-slate-400:hover {
+    color: #334155;
+  }
+
   /* Inner elements with dark slate backgrounds become clean light cards */
   .theme-light .portfolio-content .bg-slate-900\/60,
   .theme-light .portfolio-content .bg-slate-900\/80,
