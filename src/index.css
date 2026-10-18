@@ -550,6 +550,14 @@
     color: #475569;
   }
 
+  .theme-light main :is(h1, h2, h3, h4, h5, h6).text-white {
+    color: #0f172a;
+  }
+
+  .theme-light main :is(h1, h2, h3, h4, h5, h6).text-white.group-hover\:text-cyan-300:hover {
+    color: #0284c7;
+  }
+
   /* Inner elements with dark slate backgrounds become clean light cards */
   .theme-light .portfolio-content .bg-slate-900\/60,
   .theme-light .portfolio-content .bg-slate-900\/80,
