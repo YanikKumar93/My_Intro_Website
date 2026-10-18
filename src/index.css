@@ -644,6 +644,22 @@
     color: #64748b;
   }
 
+  /* Software project chips and metadata stay readable on light cards */
+  .theme-light #projects .bg-slate-800\/80,
+  .theme-light #projects .bg-slate-800\/50 {
+    background: #f1f5f9;
+    border-color: #cbd5e1;
+  }
+
+  .theme-light #projects .text-slate-300 {
+    color: #334155;
+  }
+
+  .theme-light #projects .text-slate-400,
+  .theme-light #projects .text-slate-500 {
+    color: #475569;
+  }
+
   /* Inner elements with dark slate backgrounds become clean light cards */
   .theme-light .portfolio-content .bg-slate-900\/60,
   .theme-light .portfolio-content .bg-slate-900\/80,
