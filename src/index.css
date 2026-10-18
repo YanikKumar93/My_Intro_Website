@@ -601,6 +601,49 @@
     color: #334155;
   }
 
+  .theme-light #contact .text-cyan-300 {
+    color: #0369a1;
+  }
+
+  .theme-light #contact .text-slate-300 {
+    color: #334155;
+  }
+
+  .theme-light #contact .text-slate-400,
+  .theme-light #contact .text-slate-500 {
+    color: #475569;
+  }
+
+  .theme-light #contact .bg-slate-900\/60,
+  .theme-light #contact .bg-slate-900\/80 {
+    background: #ffffff;
+    border-color: #e2e8f0;
+  }
+
+  .theme-light #contact .bg-white\/5 {
+    background: #f1f5f9;
+    border-color: #cbd5e1;
+  }
+
+  .theme-light #contact .text-white {
+    color: #0f172a;
+  }
+
+  .theme-light #contact button.text-white,
+  .theme-light #contact button .text-white {
+    color: #ffffff;
+  }
+
+  .theme-light #contact input,
+  .theme-light #contact textarea {
+    color: #0f172a !important;
+  }
+
+  .theme-light #contact input::placeholder,
+  .theme-light #contact textarea::placeholder {
+    color: #64748b;
+  }
+
   /* Inner elements with dark slate backgrounds become clean light cards */
   .theme-light .portfolio-content .bg-slate-900\/60,
   .theme-light .portfolio-content .bg-slate-900\/80,
