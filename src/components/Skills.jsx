@@ -96,7 +96,7 @@ export default function Skills() {
 
                   {/* Skills Grid */}
                   <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-                    {category.skills.map((skill, sIdx) => (
+                    {category.skills.map((skill) => (
                       <motion.div
                         key={skill.name}
                         whileHover={{ y: -3, scale: 1.01 }}
@@ -115,22 +115,6 @@ export default function Skills() {
                           </p>
                         </div>
 
-                        {/* Proficiency Level Bar */}
-                        <div className="pt-2 border-t border-white/5">
-                          <div className="flex justify-between items-center text-[11px] font-mono text-slate-400 mb-1.5">
-                            <span className="text-slate-500">Mastery</span>
-                            <span className="text-cyan-400 font-semibold">{skill.level}</span>
-                          </div>
-                          <div className="w-full h-1.5 rounded-full bg-slate-800 overflow-hidden">
-                            <motion.div
-                              initial={{ width: 0 }}
-                              whileInView={{ width: `${skill.proficiency}%` }}
-                              viewport={{ once: true }}
-                              transition={{ duration: 0.8, delay: sIdx * 0.05 }}
-                              className="h-full rounded-full bg-gradient-to-r from-cyan-500 to-blue-500"
-                            />
-                          </div>
-                        </div>
                       </motion.div>
                     ))}
                   </div>

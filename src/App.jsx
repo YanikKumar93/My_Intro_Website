@@ -54,7 +54,7 @@ export default function App() {
         {/* Core Toolchain & Media Dock */}
         <TechStackFloating />
 
-        {/* Technical Capabilities & Mastery Levels */}
+        {/* Technical Capabilities */}
         <Skills />
 
         {/* Engineering Background & Bento Grid */}

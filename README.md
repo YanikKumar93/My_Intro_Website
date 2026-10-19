@@ -82,7 +82,7 @@ All personal details are completely decoupled from UI code:
 1. **Your Name & Social Links**: Edit `src/data/personal.js`
 2. **Key Metrics & Statistics**: Edit `src/data/stats.js`
 3. **Home Page Floating Tools**: Edit `src/data/techStackFloating.js`
-4. **Skills & Mastery Levels**: Edit `src/data/skills.js`
+4. **Skills**: Edit `src/data/skills.js`
 5. **Projects & Hardware BOM**: Edit `src/data/projects.js`
 6. **About Section**: Edit `src/data/about.js`
 
