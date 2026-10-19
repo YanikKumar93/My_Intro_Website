@@ -158,14 +158,6 @@ export default function PixelOLEDDisplay() {
                       YANIK KUMAR
                     </h2>
 
-                    <div className="text-[9px] sm:text-[11px] text-cyan-200/90 tracking-wide mt-1.5 font-mono">
-                      [ B.TECH ECE • DEVELOPER & INNOVATOR ]
-                    </div>
-
-                    <div className="text-[8px] sm:text-[9px] text-emerald-400/90 font-mono mt-1">
-                      &gt; BRIDGING HARDWARE WITH INTELLIGENT AI
-                    </div>
-
                     <div className="text-[10px] text-cyan-500/80 tracking-widest mt-1 font-pixel">
                       ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■
                     </div>
