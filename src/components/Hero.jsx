@@ -156,10 +156,6 @@ export default function Hero() {
               </span>
             </h1>
 
-            <p className="text-sm sm:text-base md:text-lg text-slate-600 dark:text-slate-300/90 leading-relaxed max-w-2xl mx-auto mb-6">
-              {personalInfo.bio}
-            </p>
-
             {/* Direct Connect & Social Bar */}
             <div className="flex flex-wrap items-center justify-center gap-3 pt-3 border-t border-slate-200 dark:border-white/10">
               <a
