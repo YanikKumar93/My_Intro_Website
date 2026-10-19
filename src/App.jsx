@@ -48,6 +48,9 @@ export default function App() {
         {/* Pop-Out Cinematic Hero with Pixel OLED Screen & Floating ECE Navigation Portals */}
         <Hero />
 
+        {/* Engineering Background & Bento Grid */}
+        <About />
+
         {/* Selected Work & Engineering Prototypes */}
         <Projects />
 
@@ -56,9 +59,6 @@ export default function App() {
 
         {/* Technical Capabilities */}
         <Skills />
-
-        {/* Engineering Background & Bento Grid */}
-        <About />
 
         {/* Communication & Contact Form */}
         <Contact />

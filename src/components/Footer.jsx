@@ -32,8 +32,9 @@ export default function Footer() {
 
           {/* Quick Navigation Links */}
           <div className="flex flex-wrap justify-center gap-4 text-xs font-medium text-slate-400">
-            <a href="#tech-dock" className="hover:text-cyan-300 transition-colors">Stack</a>
+            <a href="#about" className="hover:text-cyan-300 transition-colors">About</a>
             <a href="#projects" className="hover:text-cyan-300 transition-colors">Projects</a>
+            <a href="#tech-dock" className="hover:text-cyan-300 transition-colors">Stack</a>
             <a href="#skills" className="hover:text-cyan-300 transition-colors">Skills</a>
             <a href="#contact" className="hover:text-cyan-300 transition-colors">Contact</a>
           </div>

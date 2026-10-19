@@ -20,7 +20,7 @@ export default function Navbar({ isDark, onToggleTheme }) {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 20);
 
-      const sections = ['home', 'projects', 'tech-dock', 'skills', 'about', 'contact'];
+      const sections = ['home', 'about', 'projects', 'tech-dock', 'skills', 'contact'];
       const activationLine = 140;
       let currentSection = 'home';
 
