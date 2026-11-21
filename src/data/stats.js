@@ -2,7 +2,7 @@ export const portfolioStats = [
   {
     id: "projects",
     label: "Projects Built",
-    value: "10+",
+    value: "17+",
     description: "Hardware prototypes, IoT systems & modern web apps"
   },
   {
